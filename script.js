@@ -10,21 +10,31 @@ let start = document.getElementById("start");
 let restart = document.getElementById("restart");
 let welcome = document.getElementById("welcome");
 
+let menu = document.getElementById("menu");
 let decisionMenu = document.getElementById("decision-menu");
 let decisionText = document.getElementById("decision-text");
 let option1 = document.getElementById("option1");
 let option2 = document.getElementById("option2");
 
 let music = document.getElementById('audio');
+let startScreen = document.getElementById('home-image');
+// let gameScreen = document.getElementById('side-by-side');
+
+const gameScreen = document.getElementById('side-by-side');
 
 start.addEventListener('click', function() {
     buttonClickSound();
+    startScreen.style.display = 'none';
+    // gameScreen.style.display = 'block !important';
+    gameScreen.setAttribute('style', 'display: inline-flex !important;');
     welcome.style.display = 'none';
+    menu.style.display = 'block';
     decisionMenu.style.display = 'block';
     decisionText.textContent = "Time to get up! Do you want to snooze your alarm?";
     option1.textContent = "Yes! Back to bed!";
     option2.textContent = "Nope! Rise and shine!";
     document.getElementById("scene-image").src = "assets/bedroom.jpeg"
+    document.getElementById("scene-image").style.display = 'block';
 
     music.loop = true;
     music.volume = 0.5;

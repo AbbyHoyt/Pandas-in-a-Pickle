@@ -51,12 +51,22 @@ button:active {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.side-by-side {
-    display: inline-flex;
+#side-by-side {
+    display: none !important;
     justify-content: center;
     align-items: center;
     margin: 20px;
     margin: 20px 100px;
+}
+
+#home-image {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    height: 500px;
+    width: 600px;
+    object-fit: cover;
+    border-radius: 10px;
 }
 
 #scene-image {
@@ -70,7 +80,8 @@ button:active {
     border-radius: 10px;
 }
 
-.menu {
+#menu {
+    display: none;
     height: 400px;
     width: 200px;
     display: flex;
@@ -86,7 +97,7 @@ button:active {
     justify-content: center;
 }
 
-.menu img {
+#menu img {
     width: 100px;
     border-radius: 10px;
     margin: 0px 10px;
@@ -95,7 +106,7 @@ button:active {
     display: block;
 }
 
-.menu p {
+#menu p {
     line-height: 5px;
     text-align: center;
 }
