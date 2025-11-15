@@ -127,7 +127,7 @@ option1.addEventListener('click', function() {
         time -= 5;
         timeText.textContent = time;
 
-        decisionText.textContent = "A bubble tea cart! Stop for a sip?";
+        decisionText.textContent = "Hopscotch was so much fun! \n\n A bubble tea cart! Stop for a sip?";
         option1.textContent = "Of course!";
         option2.textContent = "The pickleball court is calling, no time to waste!";
         document.getElementById("scene-image").src = "assets/bubble-tea.jpeg"
