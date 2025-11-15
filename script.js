@@ -29,7 +29,6 @@ start.addEventListener('click', function() {
     music.loop = true;
     music.volume = 0.5;
     music.play();
-    //document.getElementById('audio').play();
 });
 
 restart.addEventListener('click', function() {
