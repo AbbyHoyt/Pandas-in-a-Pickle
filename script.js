@@ -55,7 +55,7 @@ option1.addEventListener('click', function() {
         time -= 5;
         timeText.textContent = time;
 
-        decisionText.textContent = "You spot your grouchy neighbor who collects rubber ducks. She looks a little less miserable today, do you take your chances?";
+        decisionText.textContent = "You got a postcard from your friend traveling the world, how cool! You spot your grouchy neighbor who collects rubber ducks. She looks a little less miserable today, do you take your chances?";
         option1.textContent = "Yes! Maybe I can cheer her up.";
         option2.textContent = "I'm not in the mood to test my luck today.";
         document.getElementById("scene-image").src = "assets/neighbor.jpeg"
