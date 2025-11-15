@@ -1,5 +1,3 @@
-document.getElementById('audio').play();
-
 let happiness = 20;
 let happinessText = document.getElementById("happiness");
 happinessText.textContent = happiness;
@@ -23,6 +21,7 @@ start.addEventListener('click', function() {
     option1.textContent = "Option 1 Scene 1";
     option2.textContent = "Option 2 Scene 1";
     document.getElementById("scene-image").src = "assets/bedroom.jpeg"
+    document.getElementById('audio').play();
 });
 
 let scene = 0;
