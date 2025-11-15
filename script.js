@@ -1,3 +1,5 @@
+document.getElementById('audio').play();
+
 let happiness = 20;
 let happinessText = document.getElementById("happiness");
 happinessText.textContent = happiness;
