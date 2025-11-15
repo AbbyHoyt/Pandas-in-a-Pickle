@@ -46,8 +46,8 @@ option1.addEventListener('click', function() {
         timeText.textContent = time;
 
         decisionText.textContent = "Should you stop and check the mail?";
-        option1.textContent = "Absolutely! There may be letters from friends or a package!";
-        option2.textContent = "No way - I don't want to see any bills.";
+        option1.textContent = "Absolutely! I love snail mail.";
+        option2.textContent = "No way - I don't want to see any bills or jury summons.";
         document.getElementById("scene-image").src = "assets/mailbox.jpeg"
     } else if  (scene == 3) {
         happiness += 15;
@@ -132,8 +132,8 @@ option2.addEventListener('click', function() {
         timeText.textContent = time;
 
         decisionText.textContent = "Should you stop and check the mail?";
-        option1.textContent = "Absolutely! There may be letters from friends or a package!";
-        option2.textContent = "No way - I don't want to see any bills.";
+        option1.textContent = "Absolutely! I love snail mail.";
+        option2.textContent = "No way - I don't want to see any bills or jury summons.";
         document.getElementById("scene-image").src = "assets/mailbox.jpeg"
     } else if  (scene == 3) {
         happiness += 0;
