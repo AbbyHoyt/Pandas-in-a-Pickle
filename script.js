@@ -7,6 +7,7 @@ let timeText = document.getElementById("time");
 timeText.textContent = time;
 
 let start = document.getElementById("start");
+let restart = document.getElementById("restart");
 let welcome = document.getElementById("welcome");
 
 let decisionMenu = document.getElementById("decision-menu");
@@ -22,6 +23,10 @@ start.addEventListener('click', function() {
     option2.textContent = "Nope! Rise and shine!";
     document.getElementById("scene-image").src = "assets/bedroom.jpeg"
     document.getElementById('audio').play();
+});
+
+restart.addEventListener('click', function() {
+    window.location.reload()
 });
 
 let scene = 0;
@@ -105,6 +110,7 @@ option1.addEventListener('click', function() {
         time -= 10;
         timeText.textContent = time;
 
+        restart.style.display = 'block';
         decisionText.textContent = "Yay! You made it to the pickleball court with " + time  + " minutes to spare! Along the way you earned " + happiness + " happiness points!";
         option1.style.display = 'none';
         option2.style.display = 'none';
@@ -191,6 +197,7 @@ option2.addEventListener('click', function() {
         time -= 5;
         timeText.textContent = time;
 
+        restart.style.display = 'block';
         decisionText.textContent = "Yay! You made it to the pickleball court with " + time  + " minutes to spare! Along the way you earned " + happiness + " happiness points!";
         option1.style.display = 'none';
         option2.style.display = 'none';

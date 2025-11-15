@@ -102,11 +102,15 @@ button:active {
     text-align: center;
 }
 
-#start {
+#start, #restart {
     margin-bottom: 20px;
     margin-right: auto;
     margin-left: auto;
     display: block;
+}
+
+#restart {
+    display: none;
 }
 
 #decision-menu {
