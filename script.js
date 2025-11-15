@@ -102,7 +102,7 @@ option1.addEventListener('click', function() {
     } else if (scene == 8) {
         happiness += 10;
         happinessText.textContent = happiness;
-        time -= 5;
+        time -= 10;
         timeText.textContent = time;
 
         decisionText.textContent = "Yay! You made it to the pickleball court with " + time  + " minutes to spare! Along the way you earned " + happiness + " happiness points!";
@@ -118,7 +118,7 @@ option2.addEventListener('click', function() {
     if (scene == 1) {
         happiness -= 5;
         happinessText.textContent = happiness;
-        time -= 0;
+        time -= 5;
         timeText.textContent = time;
 
         decisionText.textContent = "Do you want to eat breakfast before you leave?";
@@ -128,7 +128,7 @@ option2.addEventListener('click', function() {
     } else if (scene == 2) {
         happiness -= 5;
         happinessText.textContent = happiness;
-        time -= 0;
+        time -= 5;
         timeText.textContent = time;
 
         decisionText.textContent = "Should you stop and check the mail?";
@@ -138,7 +138,7 @@ option2.addEventListener('click', function() {
     } else if  (scene == 3) {
         happiness += 0;
         happinessText.textContent = happiness;
-        time -= 0;
+        time -= 5;
         timeText.textContent = time;
 
         decisionText.textContent = "You spot your grouchy neighbor who collects rubber ducks. She looks a little less miserable today, do you take your chances?";
@@ -148,7 +148,7 @@ option2.addEventListener('click', function() {
     } else if (scene == 4) {
         happiness += 5;
         happinessText.textContent = happiness;
-        time -= 0;
+        time -= 5;
         timeText.textContent = time;
 
         decisionText.textContent = "Aw, how sweet! A little panda jumping in a puddle. Join them?";
@@ -158,7 +158,7 @@ option2.addEventListener('click', function() {
     } else if (scene == 5) {
         happiness += 0;
         happinessText.textContent = happiness;
-        time -= 0;
+        time -= 5;
         timeText.textContent = time;
 
         decisionText.textContent = "Will you check the community bulletin board?";
@@ -168,7 +168,7 @@ option2.addEventListener('click', function() {
     } else if (scene == 6) {
         happiness += 0;
         happinessText.textContent = happiness;
-        time -= 0;
+        time -= 5;
         timeText.textContent = time;
 
         decisionText.textContent = "Hey, look! It’s the mayor! Is now a good time to talk to him about your taco Tuesday initiative?";
@@ -178,7 +178,7 @@ option2.addEventListener('click', function() {
     } else if (scene == 7) {
         happiness += 0;
         happinessText.textContent = happiness;
-        time -= 0;
+        time -= 5;
         timeText.textContent = time;
 
         decisionText.textContent = "A hopscotch! You’re not sure that last time you’ve seen one - skip through the squares?";
@@ -188,7 +188,7 @@ option2.addEventListener('click', function() {
     } else if (scene == 8) {
         happiness += 0;
         happinessText.textContent = happiness;
-        time -= 0;
+        time -= 5;
         timeText.textContent = time;
 
         decisionText.textContent = "Yay! You made it to the pickleball court with " + time  + " minutes to spare! Along the way you earned " + happiness + " happiness points!";
