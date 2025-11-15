@@ -65,7 +65,7 @@ option1.addEventListener('click', function() {
         time -= 5;
         timeText.textContent = time;
 
-        decisionText.textContent = "Aw, how sweet! A little panda jumping in a puddle. Join them?";
+        decisionText.textContent = "Did anyone see any pigs flying this morning? You had a nice conversation with your neighbor. Aw, how sweet! A little panda jumping in a puddle. Join them?";
         option1.textContent = "Duh! I love splashing in the rain!";
         option2.textContent = "Puddles aren't for me...";
         document.getElementById("scene-image").src = "assets/puddle.jpeg"
@@ -75,7 +75,7 @@ option1.addEventListener('click', function() {
         time -= 5;
         timeText.textContent = time;
 
-        decisionText.textContent = "Will you check the community bulletin board?";
+        decisionText.textContent = "Oh no, jumping in the puddles got your socks wet! Will you check the community bulletin board?";
         option1.textContent = "Yup! I love seeing what's going on in my community.";
         option2.textContent = "No time today!";
         document.getElementById("scene-image").src = "assets/community-board.jpeg"
@@ -85,7 +85,7 @@ option1.addEventListener('click', function() {
         time -= 5;
         timeText.textContent = time;
 
-        decisionText.textContent = "Hey, look! It’s the mayor! Is now a good time to talk to him about your taco Tuesday initiative?";
+        decisionText.textContent = "The community bulletin board had lots of good news - including a found cat poster! Hey, look! It’s the mayor! Is now a good time to talk to him about your taco Tuesday initiative?";
         option1.textContent = "Oh yeah! I've got my pitch ready!";
         option2.textContent = "Hmm... probably not.";
         document.getElementById("scene-image").src = "assets/mayor-taco.jpeg"
@@ -95,7 +95,7 @@ option1.addEventListener('click', function() {
         time -= 10;
         timeText.textContent = time;
 
-        decisionText.textContent = "A hopscotch! You’re not sure that last time you’ve seen one - skip through the squares?";
+        decisionText.textContent = "Unfortunately the mayor didn’t have time to talk. Taco Tuesday will have to wait. A hopscotch! You’re not sure that last time you’ve seen one - skip through the squares?";
         option1.textContent = "Absolutely! A little hopscotch never hurt anyone!";
         option2.textContent = "I'm feeling a bit clumsy today... Don't need a twisted ankle!";
         document.getElementById("scene-image").src = "assets/hopskotch.jpeg"
