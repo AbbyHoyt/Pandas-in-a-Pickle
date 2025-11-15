@@ -147,6 +147,8 @@ button:active {
     margin: 0px 20px;
     width: 45%;
     align-items: center;
+    vertical-align: middle;
+    height: 70px;
 }
 
 #audio, #click {
