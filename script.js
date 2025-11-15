@@ -17,9 +17,9 @@ let option2 = document.getElementById("option2");
 start.addEventListener('click', function() {
     welcome.style.display = 'none';
     decisionMenu.style.display = 'block';
-    decisionText.textContent = "Scene 1 Decision Description";
-    option1.textContent = "Option 1 Scene 1";
-    option2.textContent = "Option 2 Scene 1";
+    decisionText.textContent = "Time to get up! Do you want to snooze your alarm?";
+    option1.textContent = "Yes! Back to bed!";
+    option2.textContent = "Nope! Rise and shine!";
     document.getElementById("scene-image").src = "assets/bedroom.jpeg"
     document.getElementById('audio').play();
 });
@@ -35,9 +35,9 @@ option1.addEventListener('click', function() {
         time -= 5;
         timeText.textContent = time;
 
-        decisionText.textContent = "Scene 2 Decision Description";
-        option1.textContent = "Option 1 Scene 2";
-        option2.textContent = "Option 2 Scene 2";
+        decisionText.textContent = "Do you want to eat breakfast before you leave?";
+        option1.textContent = "Yes! Breakfast is the most important meal of the day!";
+        option2.textContent = "Breakfast can wait - I have a pickleball game to get to!";
         document.getElementById("scene-image").src = "assets/breakfast.jpeg"
     } else if (scene == 2) {
         happiness += 5;
@@ -45,9 +45,9 @@ option1.addEventListener('click', function() {
         time -= 5;
         timeText.textContent = time;
 
-        decisionText.textContent = "Scene 3 Decision Description";
-        option1.textContent = "Option 1 Scene 3";
-        option2.textContent = "Option 2 Scene 3";
+        decisionText.textContent = "Should you stop and check the mail?";
+        option1.textContent = "Absolutely! There may be letters from friends or a package!";
+        option2.textContent = "No way - I don't want to see any bills.";
         document.getElementById("scene-image").src = "assets/mailbox.jpeg"
     } else if  (scene == 3) {
         happiness += 5;
@@ -55,9 +55,9 @@ option1.addEventListener('click', function() {
         time -= 5;
         timeText.textContent = time;
 
-        decisionText.textContent = "Scene 4 Decision Description";
-        option1.textContent = "Option 1 Scene 4";
-        option2.textContent = "Option 2 Scene 4";
+        decisionText.textContent = "You spot your grouchy neighbor who collects rubber ducks. She looks a little less miserable today, do you take your chances?";
+        option1.textContent = "Yes! Maybe I can cheer her up.";
+        option2.textContent = "I'm not in the mood to test my luck today.";
         document.getElementById("scene-image").src = "assets/neighbor.jpeg"
     } else if (scene == 4) {
         happiness += 5;
@@ -65,9 +65,9 @@ option1.addEventListener('click', function() {
         time -= 5;
         timeText.textContent = time;
 
-        decisionText.textContent = "Scene 5 Decision Description";
-        option1.textContent = "Option 1 Scene 5";
-        option2.textContent = "Option 2 Scene 5";
+        decisionText.textContent = "Aw, how sweet! A little panda jumping in a puddle. Join them?";
+        option1.textContent = "Duh! I love splashing in the rain!";
+        option2.textContent = "Puddles aren't for me...";
         document.getElementById("scene-image").src = "assets/puddle.jpeg"
     } else if (scene == 5) {
         happiness += 5;
@@ -75,9 +75,9 @@ option1.addEventListener('click', function() {
         time -= 5;
         timeText.textContent = time;
 
-        decisionText.textContent = "Scene 6 Decision Description";
-        option1.textContent = "Option 1 Scene 6";
-        option2.textContent = "Option 2 Scene 6";
+        decisionText.textContent = "Will you check the community bulletin board?";
+        option1.textContent = "Yup! I love seeing what's going on in my community.";
+        option2.textContent = "No time today!";
         document.getElementById("scene-image").src = "assets/community-board.jpeg"
     } else if (scene == 6) {
         happiness += 5;
@@ -85,9 +85,9 @@ option1.addEventListener('click', function() {
         time -= 5;
         timeText.textContent = time;
 
-        decisionText.textContent = "Scene 7 Decision Description";
-        option1.textContent = "Option 1 Scene 7";
-        option2.textContent = "Option 2 Scene 7";
+        decisionText.textContent = "Hey, look! It’s the mayor! Is now a good time to talk to him about your taco Tuesday initiative?";
+        option1.textContent = "Oh yeah! I've got my pitch ready!";
+        option2.textContent = "Hmm... probably not.";
         document.getElementById("scene-image").src = "assets/mayor-taco.jpeg"
     } else if (scene == 7) {
         happiness += 5;
@@ -95,9 +95,9 @@ option1.addEventListener('click', function() {
         time -= 5;
         timeText.textContent = time;
 
-        decisionText.textContent = "Scene 8 Decision Description";
-        option1.textContent = "Option 1 Scene 8";
-        option2.textContent = "Option 2 Scene 8";
+        decisionText.textContent = "A hopscotch! You’re not sure that last time you’ve seen one - skip through the squares?";
+        option1.textContent = "Absolutely! A little hopscotch never hurt anyone!";
+        option2.textContent = "I'm feeling a bit clumsy today... Don't need a twisted ankle!";
         document.getElementById("scene-image").src = "assets/hopskotch.jpeg"
     } else if (scene == 8) {
         happiness += 5;
@@ -121,9 +121,9 @@ option2.addEventListener('click', function() {
         time -= 5;
         timeText.textContent = time;
 
-        decisionText.textContent = "Scene 2 Decision Description";
-        option1.textContent = "Option 1 Scene 2";
-        option2.textContent = "Option 2 Scene 2";
+        decisionText.textContent = "Do you want to eat breakfast before you leave?";
+        option1.textContent = "Yes! Breakfast is the most important meal of the day!";
+        option2.textContent = "Breakfast can wait - I have a pickleball game to get to!";
         document.getElementById("scene-image").src = "assets/breakfast.jpeg"
     } else if (scene == 2) {
         happiness += 5;
@@ -131,9 +131,9 @@ option2.addEventListener('click', function() {
         time -= 5;
         timeText.textContent = time;
 
-        decisionText.textContent = "Scene 3 Decision Description";
-        option1.textContent = "Option 1 Scene 3";
-        option2.textContent = "Option 2 Scene 3";
+        decisionText.textContent = "Should you stop and check the mail?";
+        option1.textContent = "Absolutely! There may be letters from friends or a package!";
+        option2.textContent = "No way - I don't want to see any bills.";
         document.getElementById("scene-image").src = "assets/mailbox.jpeg"
     } else if  (scene == 3) {
         happiness += 5;
@@ -141,9 +141,9 @@ option2.addEventListener('click', function() {
         time -= 5;
         timeText.textContent = time;
 
-        decisionText.textContent = "Scene 4 Decision Description";
-        option1.textContent = "Option 1 Scene 4";
-        option2.textContent = "Option 2 Scene 4";
+        decisionText.textContent = "You spot your grouchy neighbor who collects rubber ducks. She looks a little less miserable today, do you take your chances?";
+        option1.textContent = "Yes! Maybe I can cheer her up.";
+        option2.textContent = "I'm not in the mood to test my luck today.";
         document.getElementById("scene-image").src = "assets/neighbor.jpeg"
     } else if (scene == 4) {
         happiness += 5;
@@ -151,9 +151,9 @@ option2.addEventListener('click', function() {
         time -= 5;
         timeText.textContent = time;
 
-        decisionText.textContent = "Scene 5 Decision Description";
-        option1.textContent = "Option 1 Scene 5";
-        option2.textContent = "Option 2 Scene 5";
+        decisionText.textContent = "Aw, how sweet! A little panda jumping in a puddle. Join them?";
+        option1.textContent = "Duh! I love splashing in the rain!";
+        option2.textContent = "Puddles aren't for me...";
         document.getElementById("scene-image").src = "assets/puddle.jpeg"
     } else if (scene == 5) {
         happiness += 5;
@@ -161,9 +161,9 @@ option2.addEventListener('click', function() {
         time -= 5;
         timeText.textContent = time;
 
-        decisionText.textContent = "Scene 6 Decision Description";
-        option1.textContent = "Option 1 Scene 6";
-        option2.textContent = "Option 2 Scene 6";
+        decisionText.textContent = "Will you check the community bulletin board?";
+        option1.textContent = "Yup! I love seeing what's going on in my community.";
+        option2.textContent = "No time today!";
         document.getElementById("scene-image").src = "assets/community-board.jpeg"
     } else if (scene == 6) {
         happiness += 5;
@@ -171,9 +171,9 @@ option2.addEventListener('click', function() {
         time -= 5;
         timeText.textContent = time;
 
-        decisionText.textContent = "Scene 7 Decision Description";
-        option1.textContent = "Option 1 Scene 7";
-        option2.textContent = "Option 2 Scene 7";
+        decisionText.textContent = "Hey, look! It’s the mayor! Is now a good time to talk to him about your taco Tuesday initiative?";
+        option1.textContent = "Oh yeah! I've got my pitch ready!";
+        option2.textContent = "Hmm... probably not.";
         document.getElementById("scene-image").src = "assets/mayor-taco.jpeg"
     } else if (scene == 7) {
         happiness += 5;
@@ -181,9 +181,9 @@ option2.addEventListener('click', function() {
         time -= 5;
         timeText.textContent = time;
 
-        decisionText.textContent = "Scene 8 Decision Description";
-        option1.textContent = "Option 1 Scene 8";
-        option2.textContent = "Option 2 Scene 8";
+        decisionText.textContent = "A hopscotch! You’re not sure that last time you’ve seen one - skip through the squares?";
+        option1.textContent = "Absolutely! A little hopscotch never hurt anyone!";
+        option2.textContent = "I'm feeling a bit clumsy today... Don't need a twisted ankle!";
         document.getElementById("scene-image").src = "assets/hopskotch.jpeg"
     } else if (scene == 8) {
         happiness += 5;
