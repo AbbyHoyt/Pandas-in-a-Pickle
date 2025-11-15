@@ -4,6 +4,7 @@ It is estimated that we make 35,000 decisions each day. Pandas in a Pickle is a 
 Follow Pandora the panda on her way to the pickleball court where she's meeting her twin sister, Pansy. Along the way she has many decisions to make. Each action will cost some amount of time and influence her happiness, so choose wisely! Your goal is to get to the pickleball court on time and maximize happiness. Have fun!
 
 
-Audio From Pixabay:
+
+**Audio From Pixabay:**
 * Background music from [Tatamusic](https://pixabay.com/music/upbeat-pop-upbeat-music-425328/).
 * Click sound effect from [Universfield](https://pixabay.com/sound-effects/click-button-app-147358/).
