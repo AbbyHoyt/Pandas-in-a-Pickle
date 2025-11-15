@@ -114,7 +114,7 @@ option1.addEventListener('click', function() {
     } else if (scene == 7) {
         happiness -= 15;
         happinessText.textContent = happiness;
-        time -= 10;
+        time -= 5;
         timeText.textContent = time;
 
         decisionText.textContent = "Unfortunately the mayor didn’t have time to talk. Taco Tuesday will have to wait.\n\nA hopscotch! You’re not sure that last time you’ve seen one - skip through the squares?";
@@ -122,6 +122,16 @@ option1.addEventListener('click', function() {
         option2.textContent = "I'm feeling a bit clumsy today... Don't need a twisted ankle!";
         document.getElementById("scene-image").src = "assets/hopskotch.jpeg"
     } else if (scene == 8) {
+        happiness += 10;
+        happinessText.textContent = happiness;
+        time -= 5;
+        timeText.textContent = time;
+
+        decisionText.textContent = "A bubble tea cart! Stop for a sip?";
+        option1.textContent = "Of course!";
+        option2.textContent = "The pickleball court is calling, no time to waste!";
+        document.getElementById("scene-image").src = "assets/bubble-tea.jpeg"
+    } else if (scene == 9) {
         happiness += 10;
         happinessText.textContent = happiness;
         time -= 10;
@@ -215,12 +225,22 @@ option2.addEventListener('click', function() {
         time -= 5;
         timeText.textContent = time;
 
+        decisionText.textContent = "A bubble tea cart! Stop for a sip?";
+        option1.textContent = "Of course!";
+        option2.textContent = "The pickleball court is calling, no time to waste!";
+        document.getElementById("scene-image").src = "assets/bubble-tea.jpeg"
+    } else if (scene == 9) {
+        happiness += 0;
+        happinessText.textContent = happiness;
+        time -= 5;
+        timeText.textContent = time;
+
         restart.style.display = 'block';
         decisionText.textContent = "Yay! You made it to the pickleball court with " + time  + " minutes to spare! Along the way you earned " + happiness + " happiness points!";
         option1.style.display = 'none';
         option2.style.display = 'none';
         document.getElementById("scene-image").src = "assets/end-scene.jpeg"
-    } 
+    }
 });
 
 let click = document.getElementById('click');
