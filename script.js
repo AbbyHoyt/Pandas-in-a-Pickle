@@ -120,14 +120,14 @@ option1.addEventListener('click', function() {
         decisionText.textContent = "Unfortunately the mayor didn’t have time to talk. Taco Tuesday will have to wait.\n\nA hopscotch! You’re not sure that last time you’ve seen one - skip through the squares?";
         option1.textContent = "Absolutely! A little hopscotch never hurt anyone!";
         option2.textContent = "I'm feeling a bit clumsy today... Don't need a twisted ankle!";
-        document.getElementById("scene-image").src = "assets/hopskotch.jpeg"
+        document.getElementById("scene-image").src = "assets/hopscotch.jpeg"
     } else if (scene == 8) {
         happiness += 10;
         happinessText.textContent = happiness;
         time -= 5;
         timeText.textContent = time;
 
-        decisionText.textContent = "Hopscotch was so much fun! \n\n A bubble tea cart! Stop for a sip?";
+        decisionText.textContent = "Hopscotch was so much fun!\n\nA bubble tea cart! Stop for a sip?";
         option1.textContent = "Of course!";
         option2.textContent = "The pickleball court is calling, no time to waste!";
         document.getElementById("scene-image").src = "assets/bubble-tea.jpeg"
@@ -218,7 +218,7 @@ option2.addEventListener('click', function() {
         decisionText.textContent = "A hopscotch! You’re not sure that last time you’ve seen one - skip through the squares?";
         option1.textContent = "Absolutely! A little hopscotch never hurt anyone!";
         option2.textContent = "I'm feeling a bit clumsy today... Don't need a twisted ankle!";
-        document.getElementById("scene-image").src = "assets/hopskotch.jpeg"
+        document.getElementById("scene-image").src = "assets/hopscotch.jpeg"
     } else if (scene == 8) {
         happiness += 0;
         happinessText.textContent = happiness;
