@@ -1,5 +1,8 @@
 body {
     background-color: #D4E09B;
+    background-image: url("assets/background-tile.jpeg");
+    background-repeat: repeat;
+    background-size: 150px;
 }
 
 p {
