@@ -36,6 +36,15 @@ button:active {
     color: #000000;   
     text-align: center;
     font-size: 30px;
+    background-color: #CBDFBD;
+    padding: 20px;
+    border-radius: 10px;
+    width: 800px;
+    margin: 0px;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
 }
 
 .scene {
@@ -87,7 +96,6 @@ button:active {
     display: flex;
     align-items: center;
     justify-content: center;
-    /*border: 4px solid #CBDFBD;*/
     padding: 0px 10px;
     border-radius: 10px;
 }
