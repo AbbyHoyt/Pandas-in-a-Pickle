@@ -1,3 +1,5 @@
 # Pandas-in-a-Pickle
 
-Audio from [Pixabay](https://pixabay.com/music/upbeat-pop-upbeat-music-425328/).
+Audio from Pixabay:
+* Background music from [Tatamusic](https://pixabay.com/music/upbeat-pop-upbeat-music-425328/).
+* Click sound effect from [Universfield](https://pixabay.com/sound-effects/click-button-app-147358/).
