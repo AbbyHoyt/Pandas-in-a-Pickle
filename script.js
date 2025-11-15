@@ -123,7 +123,7 @@ option1.addEventListener('click', function() {
         decisionText.textContent = "Yay! You made it to the pickleball court with " + time  + " minutes to spare! Along the way you earned " + happiness + " happiness points!";
         option1.style.display = 'none';
         option2.style.display = 'none';
-        document.getElementById("scene-image").src = "assets/pandas-in-a-pickle-home.jpeg"
+        document.getElementById("scene-image").src = "assets/end-scene.jpeg"
     } 
 });
 
@@ -211,7 +211,7 @@ option2.addEventListener('click', function() {
         decisionText.textContent = "Yay! You made it to the pickleball court with " + time  + " minutes to spare! Along the way you earned " + happiness + " happiness points!";
         option1.style.display = 'none';
         option2.style.display = 'none';
-        document.getElementById("scene-image").src = "assets/pandas-in-a-pickle-home.jpeg"
+        document.getElementById("scene-image").src = "assets/end-scene.jpeg"
     } 
 });
 
