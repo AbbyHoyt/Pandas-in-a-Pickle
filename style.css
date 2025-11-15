@@ -51,6 +51,8 @@ button:active {
     margin-right: auto;
     margin-left: auto;
     display: block;
+    margin-top: 30px;
+    margin-bottom: 30px;
     width: 900px;
     height: auto;
     padding: 15px;

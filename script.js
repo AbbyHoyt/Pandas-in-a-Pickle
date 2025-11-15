@@ -18,14 +18,12 @@ let option2 = document.getElementById("option2");
 
 let music = document.getElementById('audio');
 let startScreen = document.getElementById('home-image');
-// let gameScreen = document.getElementById('side-by-side');
 
 const gameScreen = document.getElementById('side-by-side');
 
 start.addEventListener('click', function() {
     buttonClickSound();
     startScreen.style.display = 'none';
-    // gameScreen.style.display = 'block !important';
     gameScreen.setAttribute('style', 'display: inline-flex !important;');
     welcome.style.display = 'none';
     menu.style.display = 'block';
