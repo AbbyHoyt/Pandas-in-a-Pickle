@@ -25,6 +25,7 @@ button:hover {
 
 button:active {
     background-color: #F6F4D2;
+    transform: scale(0.95);
 }
 
 .title {
@@ -150,7 +151,7 @@ button:active {
     display: block;
 }
 
-#audio {
+#audio, #click {
     margin-right: auto;
     margin-left: auto;
     display: block;

@@ -15,23 +15,33 @@ let decisionText = document.getElementById("decision-text");
 let option1 = document.getElementById("option1");
 let option2 = document.getElementById("option2");
 
+let music = document.getElementById('audio');
+
 start.addEventListener('click', function() {
+    buttonClickSound();
     welcome.style.display = 'none';
     decisionMenu.style.display = 'block';
     decisionText.textContent = "Time to get up! Do you want to snooze your alarm?";
     option1.textContent = "Yes! Back to bed!";
     option2.textContent = "Nope! Rise and shine!";
     document.getElementById("scene-image").src = "assets/bedroom.jpeg"
-    document.getElementById('audio').play();
+
+    music.loop = true;
+    music.volume = 0.5;
+    music.play();
+    //document.getElementById('audio').play();
 });
 
 restart.addEventListener('click', function() {
+    buttonClickSound();
+    document.getElementById('click').play();
     window.location.reload()
 });
 
 let scene = 0;
 
 option1.addEventListener('click', function() {
+    buttonClickSound();
     scene++;
 
     if (scene == 1) {
@@ -119,6 +129,7 @@ option1.addEventListener('click', function() {
 });
 
 option2.addEventListener('click', function() {
+    buttonClickSound();
     scene++;
 
     if (scene == 1) {
@@ -204,3 +215,10 @@ option2.addEventListener('click', function() {
         document.getElementById("scene-image").src = "assets/pandas-in-a-pickle-home.jpeg"
     } 
 });
+
+let click = document.getElementById('click');
+
+function buttonClickSound() {
+    click.loop = false;
+    click.play();
+}
