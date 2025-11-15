@@ -2,6 +2,31 @@ body {
     background-color: #D4E09B;
 }
 
+p {
+    font-family: "Stack Sans Headline", sans-serif;
+    font-size: 15px;
+    color: #000000;
+}
+
+button {
+    background-color: #CBDFBD;
+    font-family: "Stack Sans Headline", sans-serif;
+    font-size: 15px;
+    color: #000000;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 30px;
+}
+
+button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+button:active {
+    background-color: #F6F4D2;
+}
+
 .title {
     font-family: "Stack Sans Headline", sans-serif;
     color: #000000;
@@ -31,7 +56,7 @@ body {
     margin: 20px 100px;
 }
 
-.scene-image {
+#scene-image {
     margin-right: auto;
     margin-left: auto;
     display: block;
@@ -65,10 +90,7 @@ body {
 }
 
 .menu p {
-    font-family: "Stack Sans Headline", sans-serif;
-    font-size: 15px;
     line-height: 5px;
-    color: #000000;
     text-align: center;
 }
 
@@ -76,11 +98,26 @@ body {
     font-size: 28px;
 }
 
-.decision-text {
+#welcome-text {
+    margin: 20px;
+}
+
+#start {
+    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+
+#decision-menu {
+    display: none;
+}
+
+#decision-text {
     font-family: "Stack Sans Headline", sans-serif;
     font-size: 15px;
     color: #000000;
-    margin: 20px;
+    margin: 40px 20px;
     text-align: center;
 }
 
@@ -95,23 +132,15 @@ body {
 }
 
 .buttons button {
-    background-color: #CBDFBD;
-    font-family: "Stack Sans Headline", sans-serif;
-    font-size: 15px;
-    color: #000000;
-    border-radius: 10px;
-    border: none;
-    padding: 10px 30px;
     margin: 0px 20px;
     width: 45%;
     align-items: center;
 }
 
-.buttons button:hover {
-    cursor: pointer;
-    opacity: 0.8;
-}
-
-.buttons button:active {
-    background-color: #F6F4D2;
+.footer {
+    width: 90%;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
 }
