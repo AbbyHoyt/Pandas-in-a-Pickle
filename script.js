@@ -117,7 +117,7 @@ option1.addEventListener('click', function() {
         time -= 5;
         timeText.textContent = time;
 
-        decisionText.textContent = "Unfortunately the mayor didn’t have time to talk. Taco Tuesday will have to wait.\n\nA hopscotch! You’re not sure that last time you’ve seen one - skip through the squares?";
+        decisionText.textContent = "Unfortunately the mayor didn’t have time to talk. Taco Tuesday will have to wait.\n\nA hopscotch! You’re not sure the last time you’ve seen one - skip through the squares?";
         option1.textContent = "Absolutely! A little hopscotch never hurt anyone!";
         option2.textContent = "I'm feeling a bit clumsy today... Don't need a twisted ankle!";
         document.getElementById("scene-image").src = "assets/hopscotch.jpeg"
