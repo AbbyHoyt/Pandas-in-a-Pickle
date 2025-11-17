@@ -13,4 +13,4 @@ Follow Pandora the panda on her way to the pickleball court where she's meeting 
 
 **Play Pandas in a Pickle [here](https://abbyhoyt.github.io/Pandas-in-a-Pickle/)!**
 
-**View the itch.io submission page for Pandas in a Pickle [here](https://abbyhoyt.itch.io/pandas-in-a-pickle).** (Submitted to the Husky Game Dev Fall 2025 Game Jam.)
+**Submitted to the Husky Game Dev Fall 2025 Game Jam. View the itch.io submission page for Pandas in a Pickle [here](https://abbyhoyt.itch.io/pandas-in-a-pickle).**
